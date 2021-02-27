@@ -1,5 +1,6 @@
 import React from 'react';
 import LandingSlide1 from './LandingSlide1';
+import LandingSlide2 from './LandingSlide2';
 
 export class FeaturesPage extends React.Component<{}, {}>
 {
@@ -7,6 +8,7 @@ export class FeaturesPage extends React.Component<{}, {}>
         return(
             <div>
                 <LandingSlide1/>
+                <LandingSlide2/>
             </div>
         )
     }

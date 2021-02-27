@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './Assets/Ohmapp-icon.png';
 import GooglePlayLogo from './Assets/Google-play.png';
 import AppleLogo from './Assets/App-store.png';
-import './LandingSlide1.css';
+import './Features.css';
 
 export class LandingSlide1 extends React.Component< {}, {} >
 {
