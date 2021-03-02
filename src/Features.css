@@ -74,4 +74,8 @@ h1{
 .carousel-control-prev-icon,
   .carousel-control-next-icon{
     filter: invert(1)
-  }
+}
+.emailInputField{
+  margin-left: 20%;
+  margin-right: 20%;
+}
