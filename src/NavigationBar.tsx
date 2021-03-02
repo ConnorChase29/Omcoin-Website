@@ -23,7 +23,7 @@ export class NavigationBar extends React.Component<{}, {}>
               </Nav>
             </div>
             <div className = "buttonSpacing">
-              <Button variant = "primary"> Read our white paper </Button>
+              <Button variant = "primary" className ="rounded-pill"> Read our white paper </Button>
             </div>
             
           </Navbar.Collapse>
