@@ -8,12 +8,11 @@ import Button from 'react-bootstrap/Button';
 //import { PushButton } from "react-cupertino";
 import './Features.css';
 
-export class LandingSlide1 extends React.Component< {}, {} >
+export class LandingSlide1 extends React.Component<{}, {}>
 {
-    render()
-    {
-        return(
-            <div className = "Landing1">
+    render() {
+        return (
+            <div className="Landing1">
                 <div>
                     <img id="omcoinLogo" src={Logo} alt="Omcoin Logo" />
                 </div>
@@ -21,16 +20,18 @@ export class LandingSlide1 extends React.Component< {}, {} >
                     <img id="googleLogo" src={GooglePlayLogo} alt="GooglePlay Logo" />
                     <img src={AppleLogo} alt="Apple Logo" />
                 </div>
-                
-                <div>
-                    
+
+                <div id="AMeditationText">
+                    <h1>A meditation experience  with crypto rewards.
+                    <br></br>
+                    with crypto rewards.
+                    </h1>
                 </div>
-                <h1>A meditation experience  with crypto rewards. </h1>
-                <h1> with crypto rewards.</h1>
-                <div>
-                    <Button variant = "primary"> Read our white paper </Button>
+
+                <div id = "buttonSpacing">
+                    <Button variant="primary"> Read our white paper </Button>
                 </div>
-                
+
                 <img src={MockUp} alt="MockUp" />
             </div>
         )
