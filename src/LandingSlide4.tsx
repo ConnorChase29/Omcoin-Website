@@ -1,6 +1,7 @@
 import React from 'react';
 import MockUp from './Assets/Omapp-Mock-2.png';
 import Logo from './Assets/Omcoin-icon.png';
+import Button from 'react-bootstrap/Button';
 import './Features.css';
 
 export class LandingSlide4 extends React.Component< {}, {} >
@@ -19,7 +20,9 @@ export class LandingSlide4 extends React.Component< {}, {} >
                 <p className="greyText">Be the first to hear about Omcoin's release directly from us.</p>
                 <div>
                     <p className="greyText">email input</p>
-                    <p className="greyText">button</p>
+                    <div>
+                        <Button variant = "outline-secondary">enter</Button>
+                    </div>
                 </div>
                 <div id = "MockupDiv">
                     <img src={MockUp} alt="Mock Up"/>
@@ -33,7 +36,8 @@ export class LandingSlide4 extends React.Component< {}, {} >
                    exchange platform.
                 </p>
                 <p className="greyText">Available on Binance & more ASAP.</p>
-                <p className="whiteText"> Button </p>
+                
+                <Button variant="outline-primary"> Buy OMM </Button>
             </div>
         )
     }
