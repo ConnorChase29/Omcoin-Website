@@ -1,0 +1,77 @@
+#googleLogo {
+  margin-right: 25px;
+}
+#omcoinLogo {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.blueText{
+  color: #0078FF;
+}
+.lightBlue{
+  color: #00D0FF;
+}
+.whiteText{
+  color: white;
+}
+.greyText{
+  color: grey;
+}
+#buttonSpacing{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#OmappText{
+  margin-top: 150px;
+  margin-bottom: 35px;
+  color: white;
+  font-weight: bolder;
+}
+#MockupDiv{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+#FirstMeditationText{
+  margin-top: 150px;
+  margin-bottom: 65px;
+}
+#VideoPadding{
+  margin-bottom: 150px;
+}
+#CarouselPadding{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.OmcoinText{
+  margin-top: -50px;
+  margin-bottom: 35px;
+}
+h1{
+  font-size: 64px;
+  font-family: 'SF Pro Display';
+  
+}
+.Slide3Text{
+  margin-top: 150px;
+  margin-bottom: 85px;
+}
+.Landing1{
+  background-color: red;
+  background-image: url("./Assets/background-image.png");
+  overflow:hidden
+}
+.Landing2{
+  overflow: hidden;
+}
+.Landing3{
+  background-color: #FBFBFD;
+  overflow:hidden
+}
+.Landing4{
+  background-color: black;
+  overflow:hidden
+}
+.carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    filter: invert(1)
+  }
