@@ -1,63 +1,86 @@
 import React from 'react';
 import './Footer.css';
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
 
 export class Footer extends React.Component<{}, {}>
 {
     render() {
         return (
             <div>
-                <footer className="footer">
+                <MDBFooter className="footer">
+                    <MDBContainer fluid>
 
-                    <div className="socialContainer">                    
-                        <div className="spacing">
-                            <p>Omcoin</p>
-                        </div>
-                        <div className="spacing">
-                        <a href="http://ign.com">
-                            <p>instagram</p>                       
-                        </a>
-                        </div>
-                        <div className="spacing">
-                            <p>facebook</p>
-                        </div>
-                        <div className="spacing">
-                            <p>twitter</p>
-                        </div>
-                        <div className="spacing">
-                            <p>linkdln</p>
-                        </div>
-                        <div className="spacing">
-                            <p>reddit</p>
-                        </div>
-                    </div>
-                    <div className="hrSpacing">
-                        <hr></hr>
-                    </div>
-                    
-                    <div>
-                    
-                        
-                        <div className="container">
-                            <div className ="spacing">
+
+
+                        <MDBCol md="12">
+                            <MDBRow className="">
+
+                                <div className = "spacing"> 
+                                    <p>Omcoin</p>
+                                </div>
+
+
+                                <div className = "spacing">
+                                    <a href="https://www.instagram.com/omcoin.meditation/">
+                                        <p>instagram</p>
+                                    </a>
+                                </div>
+
+
+                                <div className = "spacing">
+                                    <a href="https://www.facebook.com/omcoin.meditation">
+                                        <p>facebook</p>
+                                    </a>
+                                    
+                                </div>
+
+
+                                <div className = "spacing">
+                                    <p>twitter</p>
+                                </div>
+
+
+                                <div className = "spacing">
+                                    <a href="https://www.linkedin.com/company/omcoin/">
+                                        <p>linkdln</p>
+                                    </a>
+                                    
+                                </div>
+
+
+                                <div className = "spacing">
+                                    <p>reddit</p>
+                                </div>
+
+
+
+                            </MDBRow>
+                        </MDBCol>
+                        <hr className="hrFix"></hr>
+                        <MDBRow className="">
+
+                            <MDBCol md="3">
                                 <p> Copyright &copy;{new Date().getFullYear()} Omcoin Inc. All rights reserved.</p>
-                            </div>
-                            <div className ="spacing" >
-                                <p>Terms of Use</p>
-                            </div>
-                            <div className ="spacing">
-                                <p>White paper</p>
-                            </div>
-                            <div className ="moreSpacing">
-                                <p>Contact: meditation@oimcoin.cash</p>
-                            </div>
-                            <div>
-                                <p>United States</p>
-                            </div>
-                            
-                        </div>
-                    </div>
+                            </MDBCol>
+                            <MDBCol md="2">
+                                <div className="verticalLineRight">Terms of Use</div>
 
-                </footer>
+                            </MDBCol>
+                            <MDBCol md="2">
+                                <div className="verticalLineRight"> White paper</div>
+
+                            </MDBCol>
+                            <MDBCol md="3">
+                                <p>Contact: meditation@oimcoin.cash</p>
+                            </MDBCol >
+                            <MDBCol md="2">
+                                <p>United States</p>
+                            </MDBCol>
+
+                        </MDBRow>
+
+                    </MDBContainer>
+                </MDBFooter>
             </div>
 
         )
