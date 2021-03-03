@@ -30,7 +30,7 @@ export class LandingSlide1 extends React.Component<{}, {}>
                 </div>
 
                 <div id = "buttonSpacing">
-                    <Button variant="primary" size = "lg" className ="rounded-pill"> Read our white paper </Button>
+                    <Button variant="primary" size = "lg" className ="rounded-pill" onClick={() => { window.location.href = "https://drive.google.com/file/d/1FqdE1wsagtNMJFztPRyg3iyWYg7lLTgb/view?usp=sharing" }}> Read our white paper </Button>
                 </div>
 
                 <img src={MockUp} alt="MockUp" />

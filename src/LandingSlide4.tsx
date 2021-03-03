@@ -22,9 +22,10 @@ export class LandingSlide4 extends React.Component<{}, {}>
                 <div className = "emailInputField">
                     <InputGroup className="mb-3">
                         <FormControl
+                            type="email"
                             placeholder="email"
-                            aria-label="Recipient's username"
                             aria-describedby="basic-addon2"
+                            style={{backgroundColor: "black", color: "#D3D3D3"}}
                         />
                         <InputGroup.Append>
                             <Button variant="outline-secondary">enter</Button>
@@ -39,12 +40,12 @@ export class LandingSlide4 extends React.Component<{}, {}>
                 </div>
                 <h1 className="whiteText OmcoinText">Om<span className="lightBlue">coin</span></h1>
                 <p className="whiteText">Available for purchase March 2021.</p>
-                <p className="greyText">Search for 'Omcoin' on the <span className="blueText"> Poloniex </span>
+                <p className="greyText">Search for 'Omcoin' on the <a href = "https://tronscan.org/#/">Tronscan </a>
                    exchange platform.
                 </p>
                 <p className="greyText">Available on Binance & more ASAP.</p>
                 
-                <Button variant="outline-primary"> Buy OMM </Button>
+                <Button variant="outline-primary" onClick={() => { window.location.href = "https://tronscan.org/#/" }}> Buy OMM </Button>
             </div>
         )
     }
