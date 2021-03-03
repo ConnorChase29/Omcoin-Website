@@ -12,18 +12,20 @@ export class LandingSlide5 extends React.Component<{}, {}>
                 <div id = "CarouselPadding">
                 <h1>Roadmap</h1>
                 <h2>Our 2021 plans.</h2>
-                
+                    <div className = "responsiveImage">
                     <Carousel>
                         <Carousel.Item>
-                            <img src={Roadmap2} />
+                            <img className = "responsiveImage" src={Roadmap2} />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img src={Roadmap3} />
+                            <img className = "responsiveImage" src={Roadmap3} />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img src={Roadmap4} />
+                            <img className = "responsiveImage" src={Roadmap4} />
                         </Carousel.Item>
                     </Carousel>
+                    </div>
+                    
                 </div>
 
 

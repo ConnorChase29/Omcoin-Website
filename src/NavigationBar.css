@@ -4,6 +4,14 @@
 .PageLinks{
     margin-left: 50%;
 }
+@media screen and (max-width: 990px){
+    .PageLinks{
+        margin: 0;
+    }
+    .buttonSpacing{
+        margin: 0;
+    }
+}
 .buttonSpacing{
     margin-left: 5%;
 }

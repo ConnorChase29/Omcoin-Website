@@ -15,7 +15,7 @@ export class LandingSlide2 extends React.Component< {}, {} >
                     <h1 className = "blueText">crypto incentives</h1>
                 </div>
                 <div id = "VideoPadding">
-                    <video  width="1280" height="720" controls src={Video}/>
+                    <video controls src={Video}/>
                 </div>
                 
             </div>

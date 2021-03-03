@@ -88,3 +88,11 @@ h1{
   margin-left: 20%;
   margin-right: 20%;
 }
+.responsiveImage{
+    max-width: 100%;
+    height: auto;
+}
+video {
+  max-width: 75%;
+  height: auto;
+}
