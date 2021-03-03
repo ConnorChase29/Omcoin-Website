@@ -35,6 +35,9 @@
   margin-top: 150px;
   margin-bottom: 65px;
 }
+#AMeditationText{
+  margin-top: 50px;
+}
 #VideoPadding{
   margin-bottom: 150px;
 }
@@ -46,10 +49,14 @@
   margin-top: -50px;
   margin-bottom: 35px;
 }
+@font-face {
+  font-family: San Francisco;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
 h1{
+  font-family: San Francisco;
   font-size: 64px;
-  font-family: 'SF Pro Display';
-  
+  font-weight: 900;
 }
 .Slide3Text{
   margin-top: 150px;
@@ -58,20 +65,26 @@ h1{
 .Landing1{
   background-color: red;
   background-image: url("./Assets/background-image.png");
-  overflow:hidden
+  overflow:hidden;
 }
 .Landing2{
   overflow: hidden;
 }
 .Landing3{
   background-color: #FBFBFD;
-  overflow:hidden
+  overflow:hidden;
+  padding-bottom: 150px;
 }
 .Landing4{
   background-color: black;
-  overflow:hidden
+  overflow:hidden;
+  padding-bottom: 150px;
 }
 .carousel-control-prev-icon,
   .carousel-control-next-icon{
     filter: invert(1)
-  }
+}
+.emailInputField{
+  margin-left: 20%;
+  margin-right: 20%;
+}
