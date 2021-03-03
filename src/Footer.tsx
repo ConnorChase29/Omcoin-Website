@@ -13,7 +13,7 @@ export class Footer extends React.Component<{}, {}>
 
 
                         <MDBCol md="12">
-                            <MDBRow className="hrSpacing">
+                            <MDBRow className="">
 
                                 <div className = "spacing"> 
                                     <p>Omcoin</p>
@@ -21,14 +21,17 @@ export class Footer extends React.Component<{}, {}>
 
 
                                 <div className = "spacing">
-                                    <a href="http://ign.com">
+                                    <a href="https://www.instagram.com/omcoin.meditation/">
                                         <p>instagram</p>
                                     </a>
                                 </div>
 
 
                                 <div className = "spacing">
-                                    <p>facebook</p>
+                                    <a href="https://www.facebook.com/omcoin.meditation">
+                                        <p>facebook</p>
+                                    </a>
+                                    
                                 </div>
 
 
@@ -38,7 +41,10 @@ export class Footer extends React.Component<{}, {}>
 
 
                                 <div className = "spacing">
-                                    <p>linkdln</p>
+                                    <a href="https://www.linkedin.com/company/omcoin/">
+                                        <p>linkdln</p>
+                                    </a>
+                                    
                                 </div>
 
 
@@ -51,7 +57,7 @@ export class Footer extends React.Component<{}, {}>
                             </MDBRow>
                         </MDBCol>
                         <hr className="hrFix"></hr>
-                        <MDBRow className="hrSpacing">
+                        <MDBRow className="">
 
                             <MDBCol md="3">
                                 <p> Copyright &copy;{new Date().getFullYear()} Omcoin Inc. All rights reserved.</p>
