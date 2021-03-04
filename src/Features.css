@@ -117,4 +117,8 @@ h1{
     width: 75%;
   }
 }
+body{
+  overflow-x :hidden; 
+}
+
 
