@@ -6,7 +6,7 @@ export class LandingSlide2 extends React.Component< {}, {} >
     render()
     {
         return(
-            <div className = "Landing2">
+            <div id = "Overview" className = "Landing2">
                 <div id = "FirstMeditationText">
                     <h1>
                         <span className = "blueText">First </span>
