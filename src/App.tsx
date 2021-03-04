@@ -2,17 +2,26 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import FeaturesPage from './FeaturesPage';
+import TermsOfService from './TermsOfService';
 import Footer from './Footer';
 import NavBar from './NavigationBar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className = "App">
+    <React.Fragment>
       <NavBar/>
-      <FeaturesPage/>
+      <Router>
+        <Switch>
+          <Route exact path = "/" component = {FeaturesPage}/>
+          <Route path = "/termsOfService" component = {TermsOfService}/>
+        </Switch>
+      </Router>
       <Footer/>
+    </React.Fragment>
     </div>
   );
 }

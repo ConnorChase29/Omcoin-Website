@@ -13,34 +13,14 @@
 .moreSpacing{
     margin-right: 25%;
 }
-/*
-@media screen and (max-width: 1275px) {
-    .spacing{
-        width: 100vw;
-    }
-    .moreSpacing{
-        width: 100vw;
-        margin-right: 10%;
+.leftSpacing{
+    margin-left: 2%;
+}
+@media screen and (max-width: 770px){
+    .leftSpacing{
+        text-align: center;
     }
 }
-@media screen and (max-width: 1350px) {
-    .spacing{
-        margin-right: 1%;
-    }
-    .moreSpacing{
-        margin-right: 10%;
-    }
-}
-@media screen and (max-width: 1700px) {
-.spacing{
-    margin-right: 1%;
-}
-.moreSpacing{
-    margin-right: 15%;
-}
-}
-*/
-
 .verticalLineRight{
     border-right: 2px solid lightgrey;
     height: 25px;
