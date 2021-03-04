@@ -49,22 +49,20 @@
   margin-top: -50px;
   margin-bottom: 35px;
 }
-@font-face {
-  font-family: San Francisco;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
 h1{
-  font-family: San Francisco;
   font-size: 64px;
-  font-weight: 900;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 .Slide3Text{
   margin-top: 150px;
   margin-bottom: 85px;
 }
 .Landing1{
-  background-color: red;
   background-image: url("./Assets/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
   overflow:hidden;
 }
 .Landing2{
@@ -87,4 +85,12 @@ h1{
 .emailInputField{
   margin-left: 20%;
   margin-right: 20%;
+}
+.responsiveImage{
+    max-width: 100%;
+    height: auto;
+}
+video {
+  max-width: 75%;
+  height: auto;
 }

@@ -15,7 +15,7 @@ export class LandingSlide3 extends React.Component<{}, {}>
                     <h1>Earning crypto has never</h1>
                     <h1>felt more <span className="blueText">rewarding.</span></h1>
                 </div>
-                <img src = {Feature1} alt = "Feature1" />
+                <img className = "responsiveImage" src = {Feature1} alt = "Feature1" />
             </div>
 
         )

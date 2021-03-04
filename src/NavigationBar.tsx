@@ -23,7 +23,7 @@ export class NavigationBar extends React.Component<{}, {}>
               </Nav>
             </div>
             <div className = "buttonSpacing">
-              <Button variant = "primary" className ="rounded-pill"> Read our white paper </Button>
+              <Button variant = "primary" className ="rounded-pill" onClick={() => { window.location.href = "https://drive.google.com/file/d/1FqdE1wsagtNMJFztPRyg3iyWYg7lLTgb/view?usp=sharing" }}> Read our white paper </Button>
             </div>
             
           </Navbar.Collapse>
