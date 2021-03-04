@@ -10,7 +10,7 @@ export class LandingSlide3 extends React.Component<{}, {}>
 {
     render() {
         return (
-            <div className = "Landing3">
+            <div id = "Features" className = "Landing3">
                 <div className="Slide3Text">
                     <h1>Earning crypto has never</h1>
                     <h1>felt more <span className="blueText">rewarding.</span></h1>
