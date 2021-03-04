@@ -11,7 +11,7 @@ export class NavigationBar extends React.Component<{}, {}>
       <div>
         <Navbar bg="light" expand="lg">
           <div className="brandSpacing">
-            <Navbar.Brand href="#home">Omcoin</Navbar.Brand>
+            <Navbar.Brand href="/">Omcoin</Navbar.Brand>
           </div>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
