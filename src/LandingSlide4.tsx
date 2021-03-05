@@ -3,6 +3,7 @@ import MockUp from './Assets/Omapp-Mock-2.png';
 import Logo from './Assets/Omcoin-icon.png';
 import Button from 'react-bootstrap/Button';
 import { InputGroup, FormControl } from 'react-bootstrap';
+import emailjs from 'emailjs-com';
 import './Features.css';
 
 export class LandingSlide4 extends React.Component<{}, {}>
@@ -11,13 +12,18 @@ export class LandingSlide4 extends React.Component<{}, {}>
         event.preventDefault();
 
         //sends email
-        console.log("Email started");
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', '#myForm')
+        alert("Enetee");
+        
+        emailjs.sendForm('service_jlqh91p', 'template_rjyxj03', event.target)
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
             }, function (error) {
                 console.log('FAILED...', error);
             });
+        //clear email field
+        let EmailAddressField: HTMLInputElement = (document.getElementById("EmailAddressField") as HTMLInputElement);
+        EmailAddressField.value = "";
+
     }
     render() {
         return (
@@ -43,17 +49,21 @@ export class LandingSlide4 extends React.Component<{}, {}>
                 
 
                 <div className="emailInputField">
-                    <InputGroup className="mb-3">
+                    <form onSubmit={this.submitForm}>
+                    <InputGroup className="mb-3" >
                         <FormControl
+                            id = "EmailAddressField"
                             type="email"
                             placeholder="email"
                             aria-describedby="basic-addon2"
                             style={{ backgroundColor: "black", color: "#D3D3D3" }}
                         />
                         <InputGroup.Append>
-                            <Button variant="outline-secondary">enter</Button>
+                            <Button type="submit" variant="outline-secondary">enter</Button>
                         </InputGroup.Append>
                     </InputGroup>
+                    </form>
+                    
                 </div>
                 <div id="MockupDiv">
                     <img src={MockUp} alt="Mock Up" />
