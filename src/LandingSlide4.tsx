@@ -14,7 +14,7 @@ export class LandingSlide4 extends React.Component<{}, {}>
         //sends email
         alert("Enetee");
         
-        emailjs.sendForm('service_jlqh91p', 'template_rjyxj03', event.target)
+        emailjs.sendForm('gmail', 'template_rjyxj03', event.target, "user_Es5RXdkMrmbS4UFtZfAhb")
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
             }, function (error) {
@@ -52,15 +52,16 @@ export class LandingSlide4 extends React.Component<{}, {}>
                     <form onSubmit={this.submitForm}>
                     <InputGroup className="mb-3" >
                         <FormControl
+                            className = "form-control"
                             id = "EmailAddressField"
                             type="email"
                             placeholder="email"
                             aria-describedby="basic-addon2"
-                            style={{ backgroundColor: "black", color: "#D3D3D3" }}
+                            style={{ backgroundColor: "black", color: "#0000FF", border: "2px solid rgb(0,123,255)"}}
                         />
-                        <InputGroup.Append>
-                            <Button type="submit" variant="outline-secondary">enter</Button>
-                        </InputGroup.Append>
+                        <div className = "emailButtonSpacing">
+                            <Button type="submit" variant="outline-primary">enter</Button>
+                        </div>
                     </InputGroup>
                     </form>
                     
