@@ -4,9 +4,6 @@ import GooglePlayLogo from './Assets/Google-play.png';
 import AppleLogo from './Assets/App-store.png';
 import MockUp from './Assets/Home-screen-phone-mockup.png';
 import Button from 'react-bootstrap/Button';
-
-
-//import { PushButton } from "react-cupertino";
 import './Features.css';
 
 export class LandingSlide1 extends React.Component<{}, {}>
@@ -23,19 +20,36 @@ export class LandingSlide1 extends React.Component<{}, {}>
                 </div>
 
                 <div id="AMeditationText">
-                    <h1>A meditation experience  with crypto rewards.
+                    <style type="text/css">
+                        {`
+                        h1 {
+                            font-size: 64px;
+                            font-weight: bold;
+                            }
+                        `}
+                    </style>
+                    <h1>A meditation experience
                     <br></br>
                     with crypto rewards.
                     </h1>
                 </div>
 
-                <div id = "buttonSpacing">
-                    <Button variant="primary" size = "lg" className ="rounded-pill" onClick={() => { window.location.href = "https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing" }}> Read our white paper </Button>
+                <div id="buttonSpacing">
+                    <style type="text/css">
+                        {`
+
+                    .btn-huge {
+                        padding: 2rem 5rem;
+                        font-size: 1.5rem;
+                        }
+                    `}
+                    </style>
+                    <Button id="buttonStyling" variant="primary" size="huge" className="rounded-pill shadow-box-example z-depth-5" onClick={() => { window.open("https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing") }}> Read our white paper </Button>
                 </div>
                 <div >
-                    <img src={MockUp} alt="MockUp" className = "center" />
+                    <img src={MockUp} alt="MockUp" className="center" />
                 </div>
-                
+
             </div>
         )
     }

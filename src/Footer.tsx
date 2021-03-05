@@ -79,7 +79,7 @@ export class Footer extends React.Component<{}, {}>
 
                             </MDBCol>
                             <MDBCol md="2">
-                                <a href="https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing">
+                                <a href="https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     <div className=""> White paper</div>
                                 </a>
                             </MDBCol>

@@ -17,4 +17,13 @@
 }
 html {
     scroll-behavior: smooth;
-  }
+}
+.blackText{
+    color: black;
+}
+.nav-link {
+    color: black !important;
+}
+.nav-link:hover {
+    color: grey !important; /*will change color of text within the element on hover */
+}
