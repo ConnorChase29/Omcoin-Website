@@ -13,9 +13,9 @@ export class LandingSlide2 extends React.Component<{}, {}>
                     <h1 className="blueText">crypto incentives</h1>
                 </div>
                 <div id="VideoPadding">
-                    <div className = "">
+                    <div className = "responsiveImage">
                         <iframe className = ""
-                            src="https://www.youtube.com/embed/IpCsTovc2N4">
+                            height="480" width = "852" src="https://www.youtube.com/embed/IpCsTovc2N4">
                         </iframe>
                     </div>
 

@@ -1,10 +1,12 @@
 import React from 'react';
+import './Features.css';
 
 export class TermsOfService extends React.Component<{}, {}>
 {
     render() {
         return (
-            <div>
+            <div className = "centerAlign">
+            <div className = "leftAlign">
                 <h1>Terms and Conditions</h1>
                 <p>Last updated: February 24, 2021</p>
                 <p>Please read these terms and conditions carefully before using Our Service.</p>
@@ -88,6 +90,7 @@ You agree that the original English text shall prevail in the case of a dispute.
                     <li>By email: meditation@omcoin.cash</li>
                 </ul>
 
+            </div>
             </div>
         )
     }

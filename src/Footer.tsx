@@ -26,14 +26,14 @@ export class Footer extends React.Component<{}, {}>
 
 
                                 <div className="spacing">
-                                    <a href="https://www.instagram.com/omcoin.meditation/">
+                                    <a href="https://www.instagram.com/omcoin_official/" target="_blank" rel="noopener noreferrer">
                                         <img src={Instagram} alt="Instagram" />
                                     </a>
                                 </div>
 
 
                                 <div className="spacing">
-                                    <a href="https://www.facebook.com/omcoin.meditation">
+                                    <a href="https://www.facebook.com/omcoin.official" target="_blank" rel="noopener noreferrer">
                                         <img src={Facebook} alt="Facebook" />
                                     </a>
 
@@ -41,14 +41,14 @@ export class Footer extends React.Component<{}, {}>
 
 
                                 <div className="spacing">
-                                    <a href="https://www.linkedin.com/company/omcoin/">
+                                    <a href="https://twitter.com/omcoin_official" target="_blank" rel="noopener noreferrer">
                                         <img src={Twitter} alt="Twitter" />
                                     </a>
                                 </div>
 
 
                                 <div className="spacing">
-                                    <a href="https://www.linkedin.com/company/omcoin/">
+                                    <a href="https://www.linkedin.com/company/omcoin/" target="_blank" rel="noopener noreferrer">
                                         <img src={Linkedin} alt="Linkedin" />
                                     </a>
 
@@ -56,7 +56,7 @@ export class Footer extends React.Component<{}, {}>
 
 
                                 <div className="spacing">
-                                    <a href="https://www.linkedin.com/company/omcoin/">
+                                    <a href="https://www.linkedin.com/company/omcoin/" target="_blank" rel="noopener noreferrer">
                                         <img src={Reddit} alt="Reddit" />
                                     </a>
                                 </div>

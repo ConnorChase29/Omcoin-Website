@@ -136,14 +136,17 @@ h1{
     width: 75%;
   }
 }
+html{
+  overflow-x:hidden; 
+}
 body{
-  overflow-x :hidden; 
+  overflow-x:hidden; 
 }
 #buttonStyling{
   box-shadow: 0px 10px 50px rgba(0, 120, 255, 0.2);
 }
-#AvailableText{
-  line-height: normal;
+.AvailableText{
+  line-height: 20px;
   margin-bottom: 50px;
 }
 .videowrapper {
@@ -170,5 +173,15 @@ body{
   max-width: 1080px;
   max-height: 720px;
 }
-
-
+iframe, object, embed {
+  max-width: 100%;
+}
+#PurchaseText{
+  margin-bottom: 35px;
+}
+.leftAlign{
+  text-align: left;
+}
+.centerAlign{
+  text-align: center;
+}
