@@ -34,7 +34,7 @@ export class NavigationBar extends React.Component<{}, {}>
               </Nav>
             </div>
             <div className = "buttonSpacing">
-              <Button variant = "primary" className ="rounded-pill" target="_blank" rel="noopener noreferrer" onClick={() => { window.open("https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing")}}> Read our white paper </Button>
+              <Button variant = "primary" className ="rounded-pill" target="_blank" onClick={() => { window.open("https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing")}}> Read our white paper </Button>
             </div>
             
           </Navbar.Collapse>
