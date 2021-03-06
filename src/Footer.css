@@ -6,9 +6,15 @@
 .socialContainer{
     display: flex;
     margin: 0;
+    max-height: 15px;
 }
 .spacing{
     margin-right: 2%;
+    margin-bottom: 0;
+}
+.socialSpacing{
+    margin-right: 20%;
+    margin-bottom: 0;
 }
 .moreSpacing{
     margin-right: 25%;
@@ -45,7 +51,7 @@
     border-left: 1px solid grey; 
     height: px; 
 }
-.hrFix { margin-top: 0; margin-bottom: 0px }
+.hrFix { margin-top: 0; margin-bottom: 15px }
 .OmcoinFooterText{
     font-size: 24px;
     font-weight: bold;
@@ -56,4 +62,8 @@
 }
 .FooterText:hover {
     color: #1D1D1F;
+}
+.socialSpacingContainer{
+    display: flex;
+    padding-top: 6px;
 }

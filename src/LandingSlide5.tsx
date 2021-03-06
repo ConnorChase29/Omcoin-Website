@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import Roadmap from './Assets/Roadmap-card.png';
-import Roadmap2 from './Assets/Roadmap-card-2.png';
+import Roadmap2 from './Assets/Roadmap-card-2RE.png';
 import Roadmap3 from './Assets/Roadmap-card-3.png';
 import Roadmap4 from './Assets/Roadmap-card-4.png';
 import Roadmap5 from './Assets/Roadmap-card-5.png';

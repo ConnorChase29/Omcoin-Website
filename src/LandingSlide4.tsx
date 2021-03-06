@@ -12,9 +12,8 @@ export class LandingSlide4 extends React.Component<{}, {}>
         event.preventDefault();
 
         //sends email
-        alert("Enetee");
         
-        emailjs.sendForm('gmail', 'template_rvlvwm6', ".emailForm", "user_2sta0QFpG440oI4B3uXzd")
+        emailjs.sendForm('service_jlqh91p', 'template_rjyxj03', ".emailForm", "user_Es5RXdkMrmbS4UFtZfAhb")
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
             }, function (error) {
@@ -55,6 +54,7 @@ export class LandingSlide4 extends React.Component<{}, {}>
                             className = "form-control"
                             id = "EmailAddressField"
                             type="email"
+                            name = "email"
                             placeholder="email*"
                             aria-describedby="basic-addon2"
                             /*style={{ backgroundColor: "black", color: "#0000FF", border: "2px solid rgb(0,123,255)"}}*/

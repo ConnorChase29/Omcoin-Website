@@ -86,7 +86,7 @@ h1{
   background-position: center;
 }
 .Landing2{
-  background-image: url("./Assets/Landing2.png");
+  background-image: url("./Assets/Landing2RE.png");
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
@@ -198,5 +198,6 @@ iframe, object, embed {
   margin-left: 2%;
 }
 .MockUpImage{
+  padding-top: 50px;
   margin-bottom: 0;
 }
