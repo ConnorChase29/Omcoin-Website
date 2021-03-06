@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import './NavigationBar.css';

@@ -1,8 +1,5 @@
-import React, { useLayoutEffect, useRef, useState } from 'react';
-
+import React from 'react';
 import Feature1 from './Assets/Feature-card-1.png';
-import Feature2 from './Assets/Feature-card-2.png';
-import Feature3 from './Assets/Feature-card-3.png';
 
 
 
