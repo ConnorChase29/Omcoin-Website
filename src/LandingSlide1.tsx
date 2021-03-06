@@ -44,7 +44,7 @@ export class LandingSlide1 extends React.Component<{}, {}>
                         }
                     `}
                     </style>
-                    <Button id="buttonStyling" variant="primary" size="huge" className="rounded-pill shadow-box-example z-depth-5" onClick={() => { window.open("https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing") }}> Read our white paper </Button>
+                    <Button id="buttonStyling" variant="primary" className="rounded-pill shadow-box-example z-depth-5 btn-huge" onClick={() => { window.open("https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing") }}> Read our white paper </Button>
                 </div>
                 <div className = "MockUpImage">
                     <img src={MockUp} alt="MockUp" className="center" />
