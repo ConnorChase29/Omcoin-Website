@@ -13,7 +13,7 @@ export class Footer extends React.Component<{}, {}>
         return (
             <div>
                 <MDBFooter className="footer">
-                    <MDBContainer fluid>
+                    <MDBContainer fluid className="container">
 
 
 
@@ -21,17 +21,16 @@ export class Footer extends React.Component<{}, {}>
                             <MDBRow >
 
                                 <div className="spacing">
-                                    <p>Omcoin</p>
+                                    <div className="OmcoinFooterText">
+                                        <p>Omcoin</p>
+                                    </div>
+
                                 </div>
-
-
                                 <div className="spacing">
                                     <a href="https://www.instagram.com/omcoin_official/" target="_blank" rel="noopener noreferrer">
                                         <img src={Instagram} alt="Instagram" />
                                     </a>
                                 </div>
-
-
                                 <div className="spacing">
                                     <a href="https://www.facebook.com/omcoin.official" target="_blank" rel="noopener noreferrer">
                                         <img src={Facebook} alt="Facebook" />
@@ -69,28 +68,36 @@ export class Footer extends React.Component<{}, {}>
                         <MDBRow className="">
 
                             <MDBCol md="3">
-                                <p> Copyright &copy;{new Date().getFullYear()} Omcoin Inc. All rights reserved.</p>
+                                <div className="FooterText">
+                                    <p> Copyright &copy;{new Date().getFullYear()} Omcoin Inc. All rights reserved.</p>
+                                </div>
                             </MDBCol>
                             <MDBCol md="2">
                                 <a href="/termsOfService">
-                                    <div className="">Terms of Use</div>
+                                    <div className="FooterText">Terms of Use</div>
                                 </a>
-                                
+
 
                             </MDBCol>
                             <MDBCol md="2">
                                 <a href="https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                                    <div className=""> White paper</div>
+                                    <div className="FooterText"> White paper</div>
                                 </a>
                             </MDBCol>
                             <MDBCol md="3">
-
-                                <p>Contact: <span> <a href="mailto:meditation@oimcoin.cash">meditation@oimcoin.cash</a>  </span></p>
+                                <style type="text/css">
+                                    {`
+                        a:hover {
+                            color: #1D1D1F;
+                            }
+                        `}
+                                </style>
+                                <p> <span className="FooterText">Contact:</span>  <span> <a href="mailto:meditation@oimcoin.cash">meditation@oimcoin.cash</a>  </span></p>
 
 
                             </MDBCol >
                             <MDBCol md="2">
-                                <p>United States</p>
+                                <p> <span className="FooterText">United States</span></p>
                             </MDBCol>
 
                         </MDBRow>

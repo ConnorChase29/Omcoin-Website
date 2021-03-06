@@ -86,7 +86,7 @@ h1{
   background-position: center;
 }
 .Landing2{
-  background-image: url("./Assets/Group_92.png");
+  background-image: url("./Assets/Landing2.png");
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
@@ -107,6 +107,8 @@ h1{
     filter: invert(1)
 }
 .emailInputField{
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -152,7 +154,7 @@ body{
   box-shadow: 0px 10px 50px rgba(0, 120, 255, 0.2);
 }
 .AvailableText{
-  line-height: 26px;
+  line-height: 50%;
   margin-bottom: 50px;
 }
 .videowrapper {

@@ -14,7 +14,7 @@ export class LandingSlide4 extends React.Component<{}, {}>
         //sends email
         alert("Enetee");
         
-        emailjs.sendForm('gmail', 'template_rjyxj03', event.target, "user_Es5RXdkMrmbS4UFtZfAhb")
+        emailjs.sendForm('gmail', 'template_rjyxj03', event.target, 'user_Es5RXdkMrmbS4UFtZfAhb')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
             }, function (error) {
@@ -55,9 +55,9 @@ export class LandingSlide4 extends React.Component<{}, {}>
                             className = "form-control"
                             id = "EmailAddressField"
                             type="email"
-                            placeholder="email"
+                            placeholder="email*"
                             aria-describedby="basic-addon2"
-                            style={{ backgroundColor: "black", color: "#0000FF", border: "2px solid rgb(0,123,255)"}}
+                            /*style={{ backgroundColor: "black", color: "#0000FF", border: "2px solid rgb(0,123,255)"}}*/
                         />
                         <div className = "emailButtonSpacing">
                             <Button type="submit" variant="outline-primary">enter</Button>
@@ -77,8 +77,8 @@ export class LandingSlide4 extends React.Component<{}, {}>
                     <h2 className="whiteText">Available for purchase March 2021.</h2>
                 </div>
                 <div className = "AvailableText">
-                    <p className="greyText">Search for 'Omcoin' on the <a href="https://tronscan.org/#/" target="_blank" rel="noopener noreferrer">Tronscan </a>
-                   exchange platform.
+                    <p className="greyText">Search for 'Omcoin' on the <span> <a href="https://tronscan.org/#/" target="_blank" rel="noopener noreferrer">Tronscan</a> </span>
+                    exchange platform.
                     </p>
                     <p className="greyText">Available on Binance & more ASAP.</p>
                 </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './Assets/Ohmapp-icon.png';
 import GooglePlayLogo from './Assets/Google-play.png';
 import AppleLogo from './Assets/App-store.png';
-import MockUp from './Assets/Home-screen-phone-mockup.png';
+import MockUp from './Assets/Home-Page.png';
 import Button from 'react-bootstrap/Button';
 import './Features.css';
 
