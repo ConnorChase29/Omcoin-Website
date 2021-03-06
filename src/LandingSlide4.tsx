@@ -14,7 +14,7 @@ export class LandingSlide4 extends React.Component<{}, {}>
         //sends email
         alert("Enetee");
         
-        emailjs.sendForm('gmail', 'template_rjyxj03', event.target, 'user_Es5RXdkMrmbS4UFtZfAhb')
+        emailjs.sendForm('gmail', 'template_rvlvwm6', ".emailForm", "user_2sta0QFpG440oI4B3uXzd")
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
             }, function (error) {
@@ -49,7 +49,7 @@ export class LandingSlide4 extends React.Component<{}, {}>
                 
 
                 <div className="emailInputField">
-                    <form onSubmit={this.submitForm}>
+                    <form onSubmit={this.submitForm} className = "emailForm">
                     <InputGroup className="mb-3" >
                         <FormControl
                             className = "form-control"
