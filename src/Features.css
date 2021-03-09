@@ -72,9 +72,18 @@
   color: #0078FF;
 }
 
-
-
-
+/* 
+  * Landing Slide3 css
+*/
+.Landing3{
+  background-color: #FBFBFD;
+  overflow:hidden;
+  padding-bottom: 150px;
+}
+.Slide3Text{
+  margin-top: 150px;
+  margin-bottom: 85px;
+}
 
 
 
@@ -122,17 +131,10 @@ h1{
   font-weight: 700;
 }
 */
-.Slide3Text{
-  margin-top: 150px;
-  margin-bottom: 85px;
-}
 
 
-.Landing3{
-  background-color: #FBFBFD;
-  overflow:hidden;
-  padding-bottom: 150px;
-}
+
+
 .Landing4{
   padding-top: 150px;
   background-color: black;
