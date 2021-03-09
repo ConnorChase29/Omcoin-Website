@@ -8,10 +8,6 @@
 #googleLogo {
   margin-right: 25px;
 }
-#AMeditationText{
-  font-size: 64px;
-  font-weight: bold;
-}
 .AMeditationTextDiv{
   margin-top: 50px;
 }
@@ -39,21 +35,52 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+/* 
+  * Landing Slide2 css
+*/
+#VideoPadding{
+  margin-bottom: 150px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.TextPadding{
+  margin-top: 150px;
+  margin-bottom: 65px;
+}
+.Landing2{
+  background-image: url("./Assets/Landing2RE.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  
+}
+.responsiveImage{
+  max-width: 100%;
+  height: auto;
+}
 
 
 
-
-
-
-
-
-
-
-
-
+/* 
+  * global css
+*/
+.TitleText{
+  font-size: 64px;
+  font-weight: bold;
+}
 .blueText{
   color: #0078FF;
 }
+
+
+
+
+
+
+
+
+
+
 .lightBlue{
   color: #00D0FF;
 }
@@ -72,16 +99,9 @@
   margin-top: 50px;
   margin-bottom: 150px;
 }
-#FirstMeditationText{
-  margin-top: 150px;
-  margin-bottom: 65px;
-}
 
-#VideoPadding{
-  margin-bottom: 150px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
+
+
 #CarouselPadding{
   margin-top: 150px;
   margin-bottom: 150px;
@@ -107,12 +127,7 @@ h1{
   margin-bottom: 85px;
 }
 
-.Landing2{
-  background-image: url("./Assets/Landing2RE.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
-}
+
 .Landing3{
   background-color: #FBFBFD;
   overflow:hidden;
@@ -134,10 +149,7 @@ h1{
   margin-left: 20%;
   margin-right: 20%;
 }
-.responsiveImage{
-    max-width: 100%;
-    height: auto;
-}
+
 .framecontainer {
   position: relative;
   overflow: hidden;

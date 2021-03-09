@@ -21,7 +21,7 @@ export class LandingSlide1 extends React.Component<{}, {}>
 
                 <div className="AMeditationTextDiv">
                     
-                    <h1 id = "AMeditationText">A meditation experience
+                    <h1 className = "TitleText">A meditation experience
                     <br></br>
                     with crypto rewards.
                     </h1>
