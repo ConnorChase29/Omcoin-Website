@@ -65,7 +65,7 @@ export class LandingSlide4 extends React.Component<{}, {}>
                     <img src={Logo} alt="Omcoin logo" />
                 </div>
                 <h1 className="whiteText OmcoinText TitleText">Om<span className="lightBlue">coin</span></h1>
-                <div id = "PurchaseText">
+                <div className = "PurchaseText">
                     <h2 className="whiteText">Available for purchase March 2021.</h2>
                 </div>
                 <div className = "AvailableText">

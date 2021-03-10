@@ -35,10 +35,29 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+@media screen and (max-width: 500px){
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+}
+.center{
+  margin-bottom: 0;
+}
+#buttonStyling{
+  box-shadow: 0px 10px 50px rgba(0, 120, 255, 0.2);
+}
+.MockUpImage{
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
 /* 
   * Landing Slide2 css
 */
-#VideoPadding{
+.VideoPadding{
   margin-bottom: 150px;
   margin-left: 5%;
   margin-right: 5%;
@@ -57,28 +76,6 @@
 .responsiveImage{
   max-width: 100%;
   height: auto;
-}
-
-
-
-/* 
-  * global css
-*/
-.TitleText{
-  font-size: 64px;
-  font-weight: bolder;
-}
-.blueText{
-  color: #0078FF;
-}
-.lightBlue{
-  color: #00D0FF;
-}
-.whiteText{
-  color: white;
-}
-.greyText{
-  color: grey;
 }
 
 /* 
@@ -136,6 +133,9 @@
 .emailButtonSpacing{
   margin-left: 2%;
 }
+.PurchaseText{
+  margin-bottom: 35px;
+}
 
 
 /* 
@@ -145,37 +145,31 @@
   margin-top: 150px;
   margin-bottom: 150px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-h1{
-  font-size: 64px;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: 700;
-}
-*/
-
-
-
-
-
 .carousel-control-prev-icon,
   .carousel-control-next-icon{
     filter: invert(1)
 }
 
 
+/* 
+  * global css
+*/
+.TitleText{
+  font-size: 64px;
+  font-weight: bolder;
+}
+.blueText{
+  color: #0078FF;
+}
+.lightBlue{
+  color: #00D0FF;
+}
+.whiteText{
+  color: white;
+}
+.greyText{
+  color: grey;
+}
 .framecontainer {
   position: relative;
   overflow: hidden;
@@ -193,26 +187,14 @@ h1{
   width: 100%;
   height: 100%;
 }
-@media screen and (max-width: 500px){
-  .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-  }
-}
-.center{
-  margin-bottom: 0;
-}
+
 html{
   overflow-x:hidden; 
 }
 body{
   overflow-x:hidden; 
 }
-#buttonStyling{
-  box-shadow: 0px 10px 50px rgba(0, 120, 255, 0.2);
-}
+
 
 .videowrapper {
   float: none;
@@ -241,9 +223,7 @@ body{
 iframe, object, embed {
   max-width: 100%;
 }
-#PurchaseText{
-  margin-bottom: 35px;
-}
+
 .leftAlign{
   text-align: left;
 }
@@ -252,7 +232,4 @@ iframe, object, embed {
   padding-top: 100px;
 }
 
-.MockUpImage{
-  padding-top: 50px;
-  margin-bottom: 0;
-}
+
