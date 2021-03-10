@@ -66,10 +66,19 @@
 */
 .TitleText{
   font-size: 64px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .blueText{
   color: #0078FF;
+}
+.lightBlue{
+  color: #00D0FF;
+}
+.whiteText{
+  color: white;
+}
+.greyText{
+  color: grey;
 }
 
 /* 
@@ -85,29 +94,58 @@
   margin-bottom: 85px;
 }
 
-
-
-
-
-
-.lightBlue{
-  color: #00D0FF;
+/* 
+  * Landing Slide4 css
+*/
+.Landing4{
+  padding-top: 150px;
+  background-color: black;
+  overflow:hidden;
+  padding-bottom: 150px;
 }
-.whiteText{
-  color: white;
-}
-.greyText{
-  color: grey;
-}
-
-#OmappText{
+.OmappText{
   color: white;
   font-weight: bolder;
 }
-#MockupDiv{
+.ReleasingText{
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.SecondTitleText{
+  font-size: 32px;
+  font-weight: normal;
+}
+.AvailableText{
+  line-height: 50%;
+  margin-bottom: 50px;
+}
+.OmcoinText{
+  margin-top: -50px;
+  margin-bottom: 35px;
+}
+.MockupDiv{
   margin-top: 50px;
   margin-bottom: 150px;
 }
+.emailInputField{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.emailButtonSpacing{
+  margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -115,14 +153,8 @@
   margin-top: 150px;
   margin-bottom: 150px;
 }
-.OmcoinText{
-  margin-top: -50px;
-  margin-bottom: 35px;
-}
-#ReleasingText{
-  margin-top: 35px;
-  margin-bottom: 30px;
-}
+
+
 /*
 h1{
   font-size: 64px;
@@ -135,22 +167,12 @@ h1{
 
 
 
-.Landing4{
-  padding-top: 150px;
-  background-color: black;
-  overflow:hidden;
-  padding-bottom: 150px;
-}
+
 .carousel-control-prev-icon,
   .carousel-control-next-icon{
     filter: invert(1)
 }
-.emailInputField{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 20%;
-  margin-right: 20%;
-}
+
 
 .framecontainer {
   position: relative;
@@ -189,10 +211,7 @@ body{
 #buttonStyling{
   box-shadow: 0px 10px 50px rgba(0, 120, 255, 0.2);
 }
-.AvailableText{
-  line-height: 50%;
-  margin-bottom: 50px;
-}
+
 .videowrapper {
   float: none;
   clear: both;
@@ -230,9 +249,7 @@ iframe, object, embed {
   text-align: center;
   padding-top: 100px;
 }
-.emailButtonSpacing{
-  margin-left: 2%;
-}
+
 .MockUpImage{
   padding-top: 50px;
   margin-bottom: 0;

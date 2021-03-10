@@ -27,19 +27,11 @@ export class LandingSlide4 extends React.Component<{}, {}>
     render() {
         return (
             <div className="Landing4">
-                <div id="OmappText">
-                    <h1 className="whiteText">Omapp</h1>
+                <div className="OmappText">
+                    <h1 className="whiteText TitleText">Omapp</h1>
                 </div>
-                <div>
-                <style type="text/css">
-                        {`
-                        h2 {
-                            font-size: 32px;
-                            font-weight: normal;
-                            }
-                        `}
-                    </style>
-                    <h2 id = "ReleasingText" className="whiteText">Releasing Spring 2021.</h2>
+                <div className = "ReleasingText">
+                    <h2 className="whiteText SecondTitleText">Releasing Spring 2021.</h2>
                 </div>
                 <div className = "AvailableText">
                     <p className="greyText">Available soon on IOS & Android.</p>
@@ -66,13 +58,13 @@ export class LandingSlide4 extends React.Component<{}, {}>
                     </form>
                     
                 </div>
-                <div id="MockupDiv">
+                <div className="MockupDiv">
                     <img src={MockUp} alt="Mock Up" />
                 </div>
                 <div>
-                    <img src={Logo} alt="" />
+                    <img src={Logo} alt="Omcoin logo" />
                 </div>
-                <h1 className="whiteText OmcoinText">Om<span className="lightBlue">coin</span></h1>
+                <h1 className="whiteText OmcoinText TitleText">Om<span className="lightBlue">coin</span></h1>
                 <div id = "PurchaseText">
                     <h2 className="whiteText">Available for purchase March 2021.</h2>
                 </div>
