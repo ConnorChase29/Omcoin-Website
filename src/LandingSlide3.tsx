@@ -1,6 +1,6 @@
 import React from 'react';
 import Feature1 from './Assets/Future-cardRE.png';
-
+//import './CSS/Features.css';
 
 
 export class LandingSlide3 extends React.Component<{}, {}>

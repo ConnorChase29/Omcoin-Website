@@ -4,7 +4,7 @@ import Logo from './Assets/Omcoin-icon.png';
 import Button from 'react-bootstrap/Button';
 import { InputGroup, FormControl } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
-import './Features.css';
+import './CSS/Features.css';
 
 export class LandingSlide4 extends React.Component<{}, {}>
 {

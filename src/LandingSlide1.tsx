@@ -4,7 +4,8 @@ import GooglePlayLogo from './Assets/Google-play.png';
 import AppleLogo from './Assets/App-store.png';
 import MockUp from './Assets/Home-Mock.png';
 import Button from 'react-bootstrap/Button';
-import './Features.css';
+//import BackgroundImage from 
+import './CSS/Features.css';
 
 export class LandingSlide1 extends React.Component<{}, {}>
 {

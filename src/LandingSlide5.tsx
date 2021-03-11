@@ -5,6 +5,7 @@ import Roadmap2 from './Assets/Roadmap-card-2RE.png';
 import Roadmap3 from './Assets/Roadmap-card-3.png';
 import Roadmap4 from './Assets/Roadmap-card-4.png';
 import Roadmap5 from './Assets/Roadmap-card-5.png';
+import './CSS/Features.css';
 
 export class LandingSlide5 extends React.Component<{}, {}>
 {
