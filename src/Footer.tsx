@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './CSS/Footer.css';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
 import Linkedin from './Assets/Linkedin-icon.png';
 import Instagram from './Assets/Instagram-icon.png';
@@ -13,9 +13,6 @@ export class Footer extends React.Component<{}, {}>
             <div>
                 <MDBFooter className="footer">
                     <MDBContainer fluid className="container">
-
-
-
                         <MDBCol md="12" className="leftSpacing">
                             <MDBRow >
 

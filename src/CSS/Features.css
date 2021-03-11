@@ -1,0 +1,240 @@
+/* 
+  * Landing Slide1 css
+*/
+.omcoinLogoDiv {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#googleLogo {
+  margin-right: 25px;
+}
+.AMeditationTextDiv{
+  margin-top: 50px;
+}
+.whitePaperButtonSpacing{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.Landing1{
+  padding-top: 50px;
+  margin-bottom: 0;
+  position: relative;
+  overflow:hidden;
+  
+}
+.Landing1::after{
+  content:'';
+  position: absolute;
+  top:0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  background-image: url("../Assets/light-1282314.jpg");
+  opacity: 75%;
+  box-shadow: inset 0px -100px 50px rgba(255, 255, 255, 0.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+@media screen and (max-width: 500px){
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+}
+.center{
+  margin-bottom: 0;
+}
+#buttonStyling{
+  box-shadow: 0px 10px 50px rgba(0, 120, 255, 0.2);
+}
+.MockUpImage{
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+/* 
+  * Landing Slide2 css
+*/
+.VideoPadding{
+  margin-bottom: 150px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.TextPadding{
+  margin-top: 150px;
+  margin-bottom: 65px;
+}
+.Landing2{
+  background-image: url("../Assets/Landing2RE.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  
+}
+.responsiveImage{
+  max-width: 100%;
+  height: auto;
+}
+
+/* 
+  * Landing Slide3 css
+*/
+.Landing3{
+  background-color: #FBFBFD;
+  overflow:hidden;
+  padding-bottom: 150px;
+}
+.Slide3Text{
+  margin-top: 150px;
+  margin-bottom: 85px;
+}
+
+/* 
+  * Landing Slide4 css
+*/
+.Landing4{
+  padding-top: 150px;
+  background-color: black;
+  overflow:hidden;
+  padding-bottom: 150px;
+}
+.OmappText{
+  color: white;
+  font-weight: bolder;
+}
+.ReleasingText{
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.SecondTitleText{
+  font-size: 32px;
+  font-weight: normal;
+}
+.AvailableText{
+  line-height: 50%;
+  margin-bottom: 50px;
+}
+.OmcoinText{
+  margin-top: -50px;
+  margin-bottom: 35px;
+}
+.MockupDiv{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.emailInputField{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.emailButtonSpacing{
+  margin-left: 2%;
+}
+.PurchaseText{
+  margin-bottom: 35px;
+}
+
+
+/* 
+  * Landing Slide5 css
+*/
+.Landing5{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    filter: invert(1)
+}
+
+/* 
+  * terms of service css
+*/
+.leftAlign{
+  text-align: left;
+}
+.centerAlign{
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* 
+  * global css
+*/
+.TitleText{
+  font-size: 64px;
+  font-weight: bolder;
+}
+.blueText{
+  color: #0078FF;
+}
+.lightBlue{
+  color: #00D0FF;
+}
+.whiteText{
+  color: white;
+}
+.greyText{
+  color: grey;
+}
+.framecontainer {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html{
+  overflow-x:hidden; 
+}
+body{
+  overflow-x:hidden; 
+}
+
+
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.videowrapper iframe {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.embed-responsive-1by1{
+  max-width: 1080px;
+  max-height: 720px;
+}
+iframe, object, embed {
+  max-width: 100%;
+}
+
+
+

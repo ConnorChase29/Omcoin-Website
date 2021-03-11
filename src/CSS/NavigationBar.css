@@ -1,6 +1,10 @@
 .brandSpacing{
     margin-left: 10%;
 }
+#brand{
+    font-size: 24px;
+    font-weight: bold;
+}
 .PageLinks{
     margin-left: 50%;
 }
@@ -22,10 +26,10 @@ html {
 .blackText{
     color: black;
 }
-.nav-link {
+.nav-links {
     color: black !important;
 }
-.nav-link:hover {
+.nav-links:hover {
     color: grey !important; /*will change color of text within the element on hover */
 }
 .navFeature{

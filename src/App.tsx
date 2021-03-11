@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './CSS/App.css';
 import FeaturesPage from './FeaturesPage';
 import TermsOfService from './TermsOfService';
 import Footer from './Footer';
