@@ -4,7 +4,7 @@ import LandingSlide2 from './LandingSlide2';
 import LandingSlide3 from './LandingSlide3';
 import LandingSlide4 from './LandingSlide4';
 import LandingSlide5 from './LandingSlide5';
-import './Features.css';
+import './CSS/Features.css';
 
 export class FeaturesPage extends React.Component<{}, {}>
 {

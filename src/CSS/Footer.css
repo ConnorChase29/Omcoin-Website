@@ -13,7 +13,7 @@
     margin-bottom: 0;
 }
 .socialSpacing{
-    margin-right: 20%;
+    margin: 0 15px;
     margin-bottom: 0;
 }
 .moreSpacing{
@@ -59,6 +59,19 @@
 }
 .FooterText{
     color: #57575A;
+    font-size: 12px;
+}
+.FooterText p{
+    font-size: 12px;
+}
+.footer a{
+    font-size: 12px;
+}
+.footer a:hover{
+    color: #007bff;
+}
+.footer .row{
+    justify-content: center;
 }
 .FooterText:hover {
     color: #1D1D1F;

@@ -4,7 +4,7 @@ import Logo from './Assets/Omcoin-icon.png';
 import Button from 'react-bootstrap/Button';
 import { InputGroup, FormControl } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
-import './Features.css';
+import './CSS/Features.css';
 
 export class LandingSlide4 extends React.Component<{}, {}>
 {
@@ -27,22 +27,13 @@ export class LandingSlide4 extends React.Component<{}, {}>
     render() {
         return (
             <div className="Landing4">
-                <div id="OmappText">
-                    <h1 className="whiteText">Omapp</h1>
+                <div className="OmappText">
+                    <h1 className="whiteText TitleText">Omapp</h1>
+                    <h2 className="whiteText SecondTitleText">Releasing Spring 2021.</h2>
                 </div>
-                <div>
-                <style type="text/css">
-                        {`
-                        h2 {
-                            font-size: 32px;
-                            font-weight: normal;
-                            }
-                        `}
-                    </style>
-                    <h2 id = "ReleasingText" className="whiteText">Releasing Spring 2021.</h2>
-                </div>
+                <div className = "ReleasingText"></div>
                 <div className = "AvailableText">
-                    <p className="greyText">Available soon on IOS & Android.</p>
+                    <p className="greyText">Available soon on iOS & Android.</p>
                     <p className="greyText">Be the first to hear about Omcoin's release directly from us.</p>
                 </div>
                 
@@ -66,20 +57,18 @@ export class LandingSlide4 extends React.Component<{}, {}>
                     </form>
                     
                 </div>
-                <div id="MockupDiv">
+                <div className="MockupDiv">
                     <img src={MockUp} alt="Mock Up" />
                 </div>
                 <div>
-                    <img src={Logo} alt="" />
+                    <img src={Logo} alt="Omcoin logo" />
                 </div>
-                <h1 className="whiteText OmcoinText">Om<span className="lightBlue">coin</span></h1>
-                <div id = "PurchaseText">
+                <h1 className="whiteText OmcoinText TitleText">Om<span className="lightBlue">coin</span></h1>
+                <div className = "PurchaseText">
                     <h2 className="whiteText">Available for purchase March 2021.</h2>
                 </div>
                 <div className = "AvailableText">
-                    <p className="greyText">Search for 'Omcoin' on the <span> <a href="https://tronscan.org/#/" target="_blank" rel="noopener noreferrer">Tronscan</a> </span>
-                    exchange platform.
-                    </p>
+                    <p className="greyText">Buy directly on <span><a href="https://justswap.io/#/home" target="_blank" rel="noopener noreferrer">JustSwap</a></span>.</p>
                     <p className="greyText">Available on Binance & more ASAP.</p>
                 </div>
                 

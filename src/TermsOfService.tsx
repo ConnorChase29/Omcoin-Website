@@ -1,5 +1,5 @@
 import React from 'react';
-import './Features.css';
+import './CSS/Features.css';
 
 export class TermsOfService extends React.Component<{}, {}>
 {

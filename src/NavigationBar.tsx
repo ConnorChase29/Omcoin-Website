@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-import './NavigationBar.css';
+import './CSS/NavigationBar.css';
 
 export class NavigationBar extends React.Component<{}, {}>
 {
@@ -10,14 +10,6 @@ export class NavigationBar extends React.Component<{}, {}>
       <div>
         <Navbar bg="light" expand="lg" id = "navbar" fixed = "top">
           <div className="brandSpacing">
-          <style type="text/css">
-                        {`
-                        #brand {
-                            font-size: 24px;
-                            font-weight: bold;
-                            }
-                        `}
-                    </style>
             <Navbar.Brand id = "brand" href="/">Omcoin</Navbar.Brand>
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -34,7 +26,7 @@ export class NavigationBar extends React.Component<{}, {}>
               </Nav>
             </div>
             <div className = "buttonSpacing">
-              <Button variant = "primary" className ="rounded-pill" target="_blank" onClick={() => { window.open("https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing")}}> Read our white paper </Button>
+              <Button variant = "primary" className ="rounded-pill" target="_blank" onClick={() => { window.open("https://drive.google.com/file/d/1pbJQTANKP9wOkyuQSI1No0EhdT88BxcV/view?usp=sharing")}}> Read our white paper </Button>
             </div>
             
           </Navbar.Collapse>
