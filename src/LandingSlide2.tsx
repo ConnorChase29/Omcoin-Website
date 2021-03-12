@@ -9,14 +9,14 @@ export class LandingSlide2 extends React.Component<{}, {}>
                 <div className="TextPadding">
                     <h1 className = "TitleText">
                         <span className="blueText">First </span>
-                        meditation app to use
+                        meditation app to utilize
                     </h1>
-                    <h1 className="blueText TitleText">crypto incentives</h1>
+                    <h1 className="blueText TitleText">crypto incentives.</h1>
                 </div>
                 <div className="VideoPadding">
                     <div className = "responsiveImage">
                         <iframe title = "Youtube"
-                            height="480" width = "852" src="https://www.youtube.com/embed/IpCsTovc2N4">
+                            height="480" width = "973" src="https://www.youtube.com/embed/8ew2ZHoYgcg" allowFullScreen>
                         </iframe>
                     </div>
 

@@ -38,9 +38,20 @@ html {
     backdrop-filter: blur(2em);
 }
 #navbar {
-    background: rgba(255,255,255,0.9) !important;
-    backdrop-filter: blur(50px);
+    background: rgba(255,255,255,0.72) !important;
+    backdrop-filter: saturate(180%) blur(20px);
     border-bottom: 1px solid #DCDCDD;
 }
-
+.navbar-light .navbar-nav .nav-link{
+    font-size: 12px;
+}
+#navbar .buttonSpacing .btn-primary{
+    font-size: 12px;
+}
+#navbar .buttonSpacing .btn-primary:hover{
+    background-color: #2997FF;
+}
+.navbar-light #brand.navbar-brand{
+    color: #1F1F1F;
+}
  

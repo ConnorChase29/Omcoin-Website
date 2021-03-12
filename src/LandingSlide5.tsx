@@ -12,8 +12,10 @@ export class LandingSlide5 extends React.Component<{}, {}>
     render() {
         return (
             <div className="Landing5">
-                <h1 className = "TitleText">Roadmap</h1>
-                <h2>Our 2021 plans.</h2>
+                <div className="Slide3Text">
+                    <h1 className="TitleText">Roadmap</h1>
+                    <h2>Our 2021 plans.</h2>
+                </div>
                 <div className="responsiveImage">
                     <Carousel>
                         <Carousel.Item>

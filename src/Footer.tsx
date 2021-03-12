@@ -1,10 +1,10 @@
 import React from 'react';
 import './CSS/Footer.css';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
-import Linkedin from './Assets/Linkedin-icon.png';
-import Instagram from './Assets/Instagram-icon.png';
-import Twitter from './Assets/Twitter-icon.png';
-import Facebook from './Assets/Facebook-icon.png';
+import Linkedin from './Assets/Linkedin-icon.svg';
+import Instagram from './Assets/Instagram-icon.svg';
+import Twitter from './Assets/Twitter-icon.svg';
+import Facebook from './Assets/Facebook-icon.svg';
 
 export class Footer extends React.Component<{}, {}>
 {
@@ -62,7 +62,7 @@ export class Footer extends React.Component<{}, {}>
 
                             <MDBCol md="4">
                                 <div className="FooterText">
-                                    <p> Copyright &copy;{new Date().getFullYear()} Omcoin Inc. All rights reserved.</p>
+                                    <p> Copyright &copy; {new Date().getFullYear()} Omcoin Inc. All rights reserved.</p>
                                 </div>
                             </MDBCol>
                             <MDBCol md="2">
@@ -73,7 +73,7 @@ export class Footer extends React.Component<{}, {}>
 
                             </MDBCol>
                             <MDBCol md="2">
-                                <a href="https://drive.google.com/file/d/1AfbMaAE5oNiRPjyab-ao9xft6JZCCDdu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/1pbJQTANKP9wOkyuQSI1No0EhdT88BxcV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     <div className="FooterText"> White paper</div>
                                 </a>
                             </MDBCol>

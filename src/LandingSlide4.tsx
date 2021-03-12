@@ -29,12 +29,11 @@ export class LandingSlide4 extends React.Component<{}, {}>
             <div className="Landing4">
                 <div className="OmappText">
                     <h1 className="whiteText TitleText">Omapp</h1>
-                </div>
-                <div className = "ReleasingText">
                     <h2 className="whiteText SecondTitleText">Releasing Spring 2021.</h2>
                 </div>
+                <div className = "ReleasingText"></div>
                 <div className = "AvailableText">
-                    <p className="greyText">Available soon on IOS & Android.</p>
+                    <p className="greyText">Available soon on iOS & Android.</p>
                     <p className="greyText">Be the first to hear about Omcoin's release directly from us.</p>
                 </div>
                 
@@ -69,9 +68,7 @@ export class LandingSlide4 extends React.Component<{}, {}>
                     <h2 className="whiteText">Available for purchase March 2021.</h2>
                 </div>
                 <div className = "AvailableText">
-                    <p className="greyText">Search for 'Omcoin' on the <span> <a href="https://tronscan.org/#/" target="_blank" rel="noopener noreferrer">Tronscan</a> </span>
-                    exchange platform.
-                    </p>
+                    <p className="greyText">Buy directly on <span><a href="https://justswap.io/#/home" target="_blank" rel="noopener noreferrer">JustSwap</a></span>.</p>
                     <p className="greyText">Available on Binance & more ASAP.</p>
                 </div>
                 
