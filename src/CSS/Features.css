@@ -5,6 +5,10 @@
   margin-top: 50px;
   margin-bottom: 25px;
 }
+.omcoinLogoDiv img{
+  max-width: 100px;
+  filter: drop-shadow(0px 10px 50px rgba(0,0,0,0.2));
+}
 #googleLogo {
   margin-right: 25px;
 }
@@ -50,6 +54,10 @@
 }
 #buttonStyling{
   box-shadow: 0px 10px 50px rgba(0, 120, 255, 0.2);
+  width: 240px;
+  height: 70px;
+  font-size: 1rem;
+  padding: 0;
 }
 .MockUpImage{
   padding-top: 50px;
@@ -69,7 +77,7 @@
   margin-bottom: 65px;
 }
 .Landing2{
-  background-image: url("../Assets/Landing2RE.png");
+  background-image: none;
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
@@ -115,12 +123,12 @@
   font-weight: normal;
 }
 .AvailableText{
-  line-height: 50%;
+  line-height: initial;
   margin-bottom: 50px;
 }
 .OmcoinText{
   margin-top: -50px;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 .MockupDiv{
   margin-top: 50px;
@@ -137,6 +145,14 @@
 }
 .PurchaseText{
   margin-bottom: 35px;
+}
+.Landing4 .emailInputField .input-group:not(.has-validation)>.form-control:not(:last-child){
+  border-radius: .25rem;
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  background-color: transparent;
+  border: 0px solid #57575A;
+  border-bottom: 1px solid #57575A;
 }
 
 
@@ -169,6 +185,7 @@
 .TitleText{
   font-size: 64px;
   font-weight: bolder;
+  color: #1D1E20;
 }
 .blueText{
   color: #0078FF;
@@ -204,7 +221,10 @@ html{
   overflow-x:hidden; 
 }
 body{
-  overflow-x:hidden; 
+  overflow-x:hidden;
+  background: linear-gradient(-45deg, #9FCBED, #C5CBEE, #FCEBFB, #FEFEFE);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
 
@@ -234,7 +254,11 @@ body{
 }
 iframe, object, embed {
   max-width: 100%;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  filter: drop-shadow(0px 10px 50px rgba(0,0,0,0.45));
 }
-
-
+#buttonStyling:hover{
+  background-color: #2997FF;
+}
 
