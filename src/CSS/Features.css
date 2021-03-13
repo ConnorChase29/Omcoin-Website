@@ -3,10 +3,10 @@
 */
 .omcoinLogoDiv {
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 .omcoinLogoDiv img{
-  max-width: 100px;
+  max-width: 86px;
   filter: drop-shadow(0px 10px 50px rgba(0,0,0,0.2));
 }
 #googleLogo {
@@ -16,8 +16,8 @@
   margin-top: 50px;
 }
 .whitePaperButtonSpacing{
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: 47px;
+  margin-bottom: 63px;
 }
 .Landing1{
   padding-top: 50px;
@@ -26,7 +26,10 @@
   overflow:hidden;
   
 }
-.Landing1::after{
+.Landing1 .TitleText{
+  font-size: 72px;
+}
+/**.Landing1::after{
   content:'';
   position: absolute;
   top:0px;
@@ -40,7 +43,7 @@
   background-repeat: no-repeat;
   background-position: center;
   
-}
+}**/
 @media screen and (max-width: 500px){
   .center{
     display: block;
@@ -60,7 +63,7 @@
   padding: 0;
 }
 .MockUpImage{
-  padding-top: 50px;
+  padding-top: 0px;
   margin-bottom: 0;
 }
 
@@ -77,6 +80,7 @@
   margin-bottom: 65px;
 }
 .Landing2{
+  background-color: #ffffff;
   background-image: none;
   background-repeat: no-repeat;
   background-position: center;
@@ -92,7 +96,7 @@
   * Landing Slide3 css
 */
 .Landing3{
-  background-color: #FBFBFD;
+  background-color: #F5F5F7;
   overflow:hidden;
   padding-bottom: 150px;
 }
@@ -119,7 +123,7 @@
   margin-bottom: 30px;
 }
 .SecondTitleText{
-  font-size: 32px;
+  font-size: 28px;
   font-weight: normal;
 }
 .AvailableText{
@@ -146,6 +150,9 @@
 .PurchaseText{
   margin-bottom: 35px;
 }
+.PurchaseText .whiteText{
+  font-size: 28px;
+}
 .Landing4 .emailInputField .input-group:not(.has-validation)>.form-control:not(:last-child){
   border-radius: .25rem;
   border-top-right-radius: .25rem;
@@ -154,14 +161,41 @@
   border: 0px solid #57575A;
   border-bottom: 1px solid #57575A;
 }
+@media (max-width: 991px){
+  .Landing4 .emailInputField .input-group:not(.has-validation)>.form-control:not(:last-child){
+    margin-right: 10px;
+  }
+}
+.Landing4 .emailInputField .form-control:focus{
+  outline: none;
+  box-shadow: none;
+}
+.Landing4 .emailInputField .form-control{
+  color: #808080;
+}
+.Landing4 .emailInputField .form-control::placeholder{
+  color: #808080;
+}
+
+.Landing4 .emailInputField .emailjs-success{
+  display: none;
+}
 
 
 /* 
   * Landing Slide5 css
 */
 .Landing5{
-  margin-top: 150px;
-  margin-bottom: 150px;
+  padding-top: 134px;
+  padding-bottom: 149px;
+  background-color: #ffffff;
+}
+.Landing5 .Slide3Text{
+  margin-top: 0;
+}
+.Landing5 .Slide3Text h2{
+  font-size: 28px;
+  color: #1D1E20;
 }
 .carousel-control-prev-icon,
   .carousel-control-next-icon{
@@ -198,6 +232,11 @@
 }
 .greyText{
   color: grey;
+  line-height: 26.1px;
+  font-size: 18px;
+}
+.greyText a:hover{
+  color: #007bff;
 }
 .framecontainer {
   position: relative;
@@ -258,7 +297,12 @@ iframe, object, embed {
   border-radius: 10px;
   filter: drop-shadow(0px 10px 50px rgba(0,0,0,0.45));
 }
+#buttonStyling{
+  border: 0px solid transparent;
+  box-shadow: none;
+}
 #buttonStyling:hover{
   background-color: #2997FF;
+  border: 0px solid transparent;
 }
 

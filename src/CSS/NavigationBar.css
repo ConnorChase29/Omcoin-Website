@@ -1,5 +1,5 @@
 .brandSpacing{
-    margin-left: 10%;
+    margin-left: 0;
 }
 #brand{
     font-size: 24px;
@@ -18,7 +18,7 @@
     }
 }
 .buttonSpacing{
-    margin-left: 30px;
+    margin-left: 10px;
 }
 html {
     scroll-behavior: smooth;
@@ -47,11 +47,21 @@ html {
 }
 #navbar .buttonSpacing .btn-primary{
     font-size: 12px;
+    border: 0px solid transparent;
+    box-shadow: none;
 }
 #navbar .buttonSpacing .btn-primary:hover{
     background-color: #2997FF;
+    border: 0px solid transparent;
 }
 .navbar-light #brand.navbar-brand{
     color: #1F1F1F;
 }
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: flex-end;
+    }
+}
+
  
