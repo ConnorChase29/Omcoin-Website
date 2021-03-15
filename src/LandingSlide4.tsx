@@ -9,8 +9,7 @@ import './CSS/Features.css';
 export class LandingSlide4 extends React.Component<{}, {}>
 {
     submitForm = (event: any) => {
-        event.preventDefault();
-
+        event.preventDefault();        
         //sends email
         
         emailjs.sendForm('service_jlqh91p', 'template_rjyxj03', ".emailForm", "user_Es5RXdkMrmbS4UFtZfAhb")
@@ -33,13 +32,12 @@ export class LandingSlide4 extends React.Component<{}, {}>
                 </div>
                 <div className = "ReleasingText"></div>
                 <div className = "AvailableText">
-                    <p className="greyText">Available soon on iOS & Android.</p>
-                    <p className="greyText">Be the first to hear about Omcoin's release directly from us.</p>
+                    <p className="greyText">Available soon on iOS & Android.<br/>Be the first to hear about Omcoin's release.</p>
                 </div>
                 
 
-                <div className="emailInputField">
-                    <form onSubmit={this.submitForm} className = "emailForm">
+                <div className="emailInputField" id="emailSection">
+                    <form onSubmit={this.submitForm} className = "emailForm ">
                     <InputGroup className="mb-3" >
                         <FormControl
                             className = "form-control"
@@ -65,11 +63,10 @@ export class LandingSlide4 extends React.Component<{}, {}>
                 </div>
                 <h1 className="whiteText OmcoinText TitleText">Om<span className="lightBlue">coin</span></h1>
                 <div className = "PurchaseText">
-                    <h2 className="whiteText">Available for purchase March 2021.</h2>
+                    <h2 className="whiteText">Now available for purchase.</h2>
                 </div>
                 <div className = "AvailableText">
-                    <p className="greyText">Buy directly on <span><a href="https://justswap.io/#/home" target="_blank" rel="noopener noreferrer">JustSwap</a></span>.</p>
-                    <p className="greyText">Available on Binance & more ASAP.</p>
+                    <p className="greyText">Buy directly on <span><a href="https://justswap.io/#/home" target="_blank" rel="noopener noreferrer">JustSwap.</a></span><br/>Available on Binance & more ASAP.</p>
                 </div>
                 
 

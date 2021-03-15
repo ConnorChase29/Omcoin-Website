@@ -2,13 +2,18 @@ import React from 'react';
 import Logo from './Assets/Omapp-App-Icon.svg';
 import GooglePlayLogo from './Assets/Google-play.png';
 import AppleLogo from './Assets/App-store.png';
-import MockUp from './Assets/Home-Mock.png';
+import MockUp from './Assets/Home-screen-phone-mockup.png';
 import Button from 'react-bootstrap/Button';
 //import BackgroundImage from 
 import './CSS/Features.css';
 
 export class LandingSlide1 extends React.Component<{}, {}>
 {
+    componentDidMount(){
+        const script = document.createElement("script");
+        script.src = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js";
+        document.head.appendChild(script);
+    }
     render() {
         return (
             <div className="Landing1">
