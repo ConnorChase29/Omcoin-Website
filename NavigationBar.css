@@ -1,0 +1,67 @@
+.brandSpacing{
+    margin-left: 0;
+}
+#brand{
+    font-size: 24px;
+    font-weight: bold;
+}
+.PageLinks{
+    margin-left: 50%;
+}
+@media screen and (max-width: 990px){
+    .PageLinks{
+        margin: 0;
+    }
+    .buttonSpacing{
+        margin: 0;
+        margin-left: 0;
+    }
+}
+.buttonSpacing{
+    margin-left: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.blackText{
+    color: black;
+}
+.nav-links {
+    color: black !important;
+}
+.nav-links:hover {
+    color: grey !important; /*will change color of text within the element on hover */
+}
+.navFeature{
+    background: rgba(247, 248, 250, 0.65);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(2em);
+}
+#navbar {
+    background: rgba(255,255,255,0.72) !important;
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid #DCDCDD;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 12px;
+}
+#navbar .buttonSpacing .btn-primary{
+    font-size: 12px;
+    border: 0px solid transparent;
+    box-shadow: none;
+}
+#navbar .buttonSpacing .btn-primary:hover{
+    background-color: #2997FF;
+    border: 0px solid transparent;
+}
+.navbar-light #brand.navbar-brand{
+    color: #1F1F1F;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: flex-end;
+    }
+}
+
+ 
