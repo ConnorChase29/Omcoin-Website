@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './Assets/Omapp-App-Icon.svg';
 import GooglePlayLogo from './Assets/Google-play.png';
 import AppleLogo from './Assets/App-store.png';
-import MockUp from './Assets/Home-screen-phone-mockup.png';
+import MockUp from './Assets/Home-Screen.png';
 import Button from 'react-bootstrap/Button';
 //import BackgroundImage from 
 import './CSS/Features.css';
@@ -42,7 +42,7 @@ export class LandingSlide1 extends React.Component<{}, {}>
                           }
                     `}
                     </style>
-                    <Button id="buttonStyling" variant="primary" className="rounded-pill shadow-box-example z-depth-5 btn-huge" onClick={() => { window.open("https://drive.google.com/file/d/1pbJQTANKP9wOkyuQSI1No0EhdT88BxcV/view?usp=sharing") }}> Read our white paper </Button>
+                    <Button id="buttonStyling" variant="primary" className="rounded-pill shadow-box-example z-depth-5 btn-huge" onClick={() => { window.open("https://drive.google.com/file/d/1p0M-f-o-D0jOt9R9-dPD1L49ButKYtNN/view?usp=sharing") }}> Read our white paper </Button>
                 </div>
                 <div className = "MockUpImage">
                     <img src={MockUp} alt="MockUp" className="center" />

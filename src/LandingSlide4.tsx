@@ -70,7 +70,7 @@ export class LandingSlide4 extends React.Component<{}, {}>
                 </div>
                 
 
-                <Button variant="outline-primary" onClick={() => { window.open("https://tronscan.org/#/") }}> Buy OMM </Button>
+                <Button variant="outline-primary" onClick={() => { window.open("https://justswap.io/#/home") }}> Buy OMM </Button>
             </div>
         )
     }

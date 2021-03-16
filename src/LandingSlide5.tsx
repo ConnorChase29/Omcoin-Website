@@ -17,23 +17,25 @@ export class LandingSlide5 extends React.Component<{}, {}>
                     <h2>Our 2021 plans.</h2>
                 </div>
                 <div className="responsiveImage">
-                    <Carousel>
-                        <Carousel.Item>
-                            <img className="responsiveImage" src={Roadmap} alt="Roadmap 1" />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img className="responsiveImage" src={Roadmap2} alt="Roadmap 2" />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img className="responsiveImage" src={Roadmap3} alt="Roadmap 3" />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img className="responsiveImage" src={Roadmap4} alt="Roadmap 4" />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img className="responsiveImage" src={Roadmap5} alt="Roadmap 5" />
-                        </Carousel.Item>
-                    </Carousel>
+                    <div className="container">
+                        <Carousel>
+                            <Carousel.Item>
+                                <img className="responsiveImage" src={Roadmap} alt="Roadmap 1" />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img className="responsiveImage" src={Roadmap2} alt="Roadmap 2" />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img className="responsiveImage" src={Roadmap3} alt="Roadmap 3" />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img className="responsiveImage" src={Roadmap4} alt="Roadmap 4" />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img className="responsiveImage" src={Roadmap5} alt="Roadmap 5" />
+                            </Carousel.Item>
+                        </Carousel>
+                    </div>
                 </div>
 
             </div>
