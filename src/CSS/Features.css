@@ -6,7 +6,7 @@
   margin-bottom: 0px;
 }
 .omcoinLogoDiv img{
-  max-width: 86px;
+  max-width: 132px;
   filter: drop-shadow(0px 10px 50px rgba(0,0,0,0.2));
 }
 #googleLogo {
@@ -20,7 +20,7 @@
   margin-bottom: 63px;
 }
 .Landing1{
-  padding-top: 50px;
+  margin-top: 63px;
   margin-bottom: 0;
   position: relative;
   overflow:hidden;
@@ -29,7 +29,12 @@
 .Landing1 .TitleText{
   font-size: 72px;
 }
-/**.Landing1::after{
+@media (max-width: 991px){
+  .Landing1 .TitleText{
+    font-size: 44px;
+  }
+}
+.Landing1::after{
   content:'';
   position: absolute;
   top:0px;
@@ -37,13 +42,13 @@
   width:100%;
   height:100%;
   z-index:-1;
-  background-image: url("../Assets/light-1282314.jpg");
-  opacity: 75%;
+  background-image: url("../Assets/buddha-1550588_1920.jpg");
+  opacity: 25%;
   box-shadow: inset 0px -100px 50px rgba(255, 255, 255, 0.2);
   background-repeat: no-repeat;
   background-position: center;
   
-}**/
+}
 @media screen and (max-width: 500px){
   .center{
     display: block;
@@ -65,6 +70,10 @@
 .MockUpImage{
   padding-top: 0px;
   margin-bottom: 0;
+  height: 467px;
+}
+.MockUpImage img{
+  max-width: 313px;
 }
 
 /* 
@@ -99,6 +108,15 @@
   background-color: #F5F5F7;
   overflow:hidden;
   padding-bottom: 150px;
+}
+.Landing3 .container{
+  max-width: 1245px;
+}
+.Landing3 .container .responsiveImage{
+  width: 100%;
+}
+.Landing3 .carousel-indicators li{
+  background-color: #1D1F20;
 }
 .Slide3Text{
   margin-top: 150px;
@@ -156,7 +174,8 @@
 .Landing4 .emailInputField .input-group:not(.has-validation)>.form-control:not(:last-child){
   border-radius: .25rem;
   border-top-right-radius: .25rem;
-  border-bottom-right-radius: .25rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
   background-color: transparent;
   border: 0px solid #57575A;
   border-bottom: 1px solid #57575A;
@@ -197,6 +216,15 @@
   font-size: 28px;
   color: #1D1E20;
 }
+.Landing5 .container{
+  max-width: 1245px;
+}
+.Landing5 .container .responsiveImage{
+  width: 100%;
+}
+.Landing5 .carousel-indicators li{
+  background-color: #1D1F20;
+}
 .carousel-control-prev-icon,
   .carousel-control-next-icon{
     filter: invert(1)
@@ -220,6 +248,15 @@
   font-size: 64px;
   font-weight: bolder;
   color: #1D1E20;
+}
+@media (max-width: 991px){
+  .TitleText{
+    font-size: 44px;
+    padding: 0 10px;
+  }
+  .Slide3Text .TitleText br{
+    display: none;
+  }
 }
 .blueText{
   color: #0078FF;
@@ -261,9 +298,9 @@ html{
 }
 body{
   overflow-x:hidden;
-  background: linear-gradient(-45deg, #9FCBED, #C5CBEE, #FCEBFB, #FEFEFE);
+  /**background: linear-gradient(-45deg, #9FCBED, #C5CBEE, #FCEBFB, #FEFEFE);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 15s ease infinite;**/
 }
 
 
@@ -305,4 +342,9 @@ iframe, object, embed {
   background-color: #2997FF;
   border: 0px solid transparent;
 }
-
+.service{
+  background-color: #ffffff;
+}
+.service ul{
+  margin: 0;
+}
