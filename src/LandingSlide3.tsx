@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import Feature1 from './Assets/Future-cardRE.png';
+import Feature1 from './Assets/Sliding-Card-1-DS.png';
 import Feature2 from './Assets/Feature-card-2RE.png';
 import Feature3 from './Assets/Feature-card-3RE.png';
 //import './CSS/Features.css';

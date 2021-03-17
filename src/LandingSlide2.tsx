@@ -7,11 +7,11 @@ export class LandingSlide2 extends React.Component<{}, {}>
         return (
             <div id="Overview" className="Landing2">
                 <div className="TextPadding">
+                    <div className="Slide3Text">
                     <h1 className = "TitleText">
-                        <span className="blueText">First </span>
-                        meditation app with
+                        <span className="blueText">First </span>meditation app with <br/><span className="blueText">crypto incentives.</span>
                     </h1>
-                    <h1 className="blueText TitleText">crypto incentives.</h1>
+                    </div>
                 </div>
                 <div className="VideoPadding">
                     <div className="container">
