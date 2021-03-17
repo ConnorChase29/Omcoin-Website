@@ -83,6 +83,7 @@ html {
     #navbar .container .navbar-toggler .navbar-toggler-icon{
         width: 1em;
         height: 1em;
+        background-image: url("../Assets/hamburger.svg");
     }
     #navbar .buttonSpacing{
         order: 0;
