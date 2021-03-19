@@ -3,25 +3,20 @@ import Logo from './Assets/Omapp-App-Icon.svg';
 import GooglePlayLogo from './Assets/Google-play.png';
 import AppleLogo from './Assets/App-store.png';
 import MockUp from './Assets/Home-Screen.png';
-import videoUrl from './Assets/Omcoin-Landing-Page-Video.mov';
+import video from './Assets/Omcoin-Landing-Page-Video.mov';
 import Button from 'react-bootstrap/Button';
 //import BackgroundImage from 
 import './CSS/Features.css';
 
 export class LandingSlide1 extends React.Component<{}, {}>
 {
-    componentDidMount(){
-        const script = document.createElement("script");
-        script.src = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js";
-        document.head.appendChild(script);
-    }
     render() {
         return (
             <div className="Landing1">
                 <div className="landing1Wrapper">
                     <div className="backgroundVideo">
-                        <video height="100%" loop muted autoPlay>
-                            <source src={videoUrl} type="video/mp4"/>
+                        <video autoPlay loop muted>
+                            <source src={video} type="video/mp4"/>
                         </video>
                     </div>
                     <div className="landing1Content">
