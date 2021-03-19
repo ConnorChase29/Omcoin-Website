@@ -29,6 +29,7 @@
 .container{
     margin-left: 10%;
     margin-right: 10%;
+    margin: 0 auto;
 }
 .leftSpacing{
     margin-left: 2%;
