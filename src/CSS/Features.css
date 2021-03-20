@@ -1,4 +1,4 @@
-/* 
+/*
   * Landing Slide1 css
 */
 .omcoinLogoDiv {
@@ -23,7 +23,7 @@
   margin-bottom: 0;
   position: relative;
   overflow:hidden;
-  
+
 }
 .Landing1 .landing1Wrapper{
   position: relative;
@@ -66,7 +66,7 @@
   box-shadow: inset 0px -100px 50px rgba(255, 255, 255, 0.2);
   background-repeat: no-repeat;
   background-position: center;
-  
+
 }**/
 @media screen and (max-width: 500px){
   .center{
@@ -97,7 +97,7 @@
   max-width: 313px;
 }
 
-/* 
+/*
   * Landing Slide2 css
 */
 .VideoPadding{
@@ -115,7 +115,7 @@
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-  
+
 }
 .Landing2 .container{
   max-width: 1120px;
@@ -130,7 +130,7 @@
   height: auto;
 }
 
-/* 
+/*
   * Landing Slide3 css
 */
 .Landing3{
@@ -157,7 +157,7 @@
   margin-bottom: 85px;
 }
 
-/* 
+/*
   * Landing Slide4 css
 */
 .Landing4{
@@ -235,7 +235,7 @@
 }
 
 
-/* 
+/*
   * Landing Slide5 css
 */
 .Landing5{
@@ -245,6 +245,7 @@
 }
 .Landing5 .Slide3Text{
   margin-top: 0;
+  margin-bottom: 45px;
 }
 .Landing5 .Slide3Text h2{
   font-size: 28px;
@@ -269,7 +270,7 @@
     filter: invert(1)
 }
 
-/* 
+/*
   * terms of service css
 */
 .leftAlign{
@@ -280,7 +281,7 @@
   padding-top: 100px;
 }
 
-/* 
+/*
   * global css
 */
 .TitleText{
@@ -333,7 +334,7 @@
 }
 
 html{
-  overflow-x:hidden; 
+  overflow-x:hidden;
 }
 body{
   overflow-x:hidden;
