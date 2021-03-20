@@ -3,7 +3,7 @@ import Logo from './Assets/Omapp-App-Icon.svg';
 import GooglePlayLogo from './Assets/Google-play.png';
 import AppleLogo from './Assets/App-store.png';
 import MockUp from './Assets/Home-Screen.png';
-import video from './Assets/Omcoin-Landing-Page-Video2.mov';
+import video from './Assets/Omcoin-Landing-Page-Video3.mp4';
 import Button from 'react-bootstrap/Button';
 //import BackgroundImage from
 import './CSS/Features.css';
