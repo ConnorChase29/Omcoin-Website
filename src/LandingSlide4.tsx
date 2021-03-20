@@ -9,9 +9,9 @@ import './CSS/Features.css';
 export class LandingSlide4 extends React.Component<{}, {}>
 {
     submitForm = (event: any) => {
-        event.preventDefault();        
+        event.preventDefault();
         //sends email
-        
+
         emailjs.sendForm('service_jlqh91p', 'template_rjyxj03', ".emailForm", "user_Es5RXdkMrmbS4UFtZfAhb")
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
@@ -27,14 +27,14 @@ export class LandingSlide4 extends React.Component<{}, {}>
         return (
             <div className="Landing4">
                 <div className="OmappText">
-                    <h1 className="whiteText TitleText">Omapp</h1>
-                    <h2 className="whiteText SecondTitleText">Releasing Spring 2021.</h2>
+                    <h1 className="whiteText TitleText" style={{marginBottom:10}}>Omapp</h1>
+                    <h2 className="whiteText SecondTitleText" >Releasing Spring 2021.</h2>
                 </div>
                 <div className = "ReleasingText"></div>
                 <div className = "AvailableText">
                     <p className="greyText">Available soon on iOS & Android.<br/>Be the first to hear about Omcoin's release.</p>
                 </div>
-                
+
 
                 <div className="emailInputField" id="emailSection">
                     <form onSubmit={this.submitForm} className = "emailForm ">
@@ -53,7 +53,7 @@ export class LandingSlide4 extends React.Component<{}, {}>
                         </div>
                     </InputGroup>
                     </form>
-                    
+
                 </div>
                 <div className="MockupDiv">
                     <img src={MockUp} alt="Mock Up" />
@@ -61,14 +61,14 @@ export class LandingSlide4 extends React.Component<{}, {}>
                 <div>
                     <img src={Logo} alt="Omcoin logo" />
                 </div>
-                <h1 className="whiteText OmcoinText TitleText">Om<span className="lightBlue">coin</span></h1>
+                <h1 className="whiteText OmcoinText TitleText" style={{marginBottom:10}}>Om<span className="lightBlue">coin</span></h1>
                 <div className = "PurchaseText">
                     <h2 className="whiteText">Now available for purchase.</h2>
                 </div>
                 <div className = "AvailableText">
                     <p className="greyText">Buy directly on <span><a href="https://justswap.io/#/home" target="_blank" rel="noopener noreferrer">JustSwap.</a></span><br/>Available on Binance & more ASAP.</p>
                 </div>
-                
+
 
                 <Button variant="outline-primary" onClick={() => { window.open("https://justswap.io/#/home") }}> Buy OMM </Button>
             </div>

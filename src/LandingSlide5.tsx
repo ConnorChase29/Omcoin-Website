@@ -18,23 +18,21 @@ export class LandingSlide5 extends React.Component<{}, {}>
                 </div>
                 <div className="responsiveImage">
                     <div className="container">
-                        <Carousel>
-                            <Carousel.Item>
-                                <img className="responsiveImage" src={Roadmap} alt="Roadmap 1" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img className="responsiveImage" src={Roadmap2} alt="Roadmap 2" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img className="responsiveImage" src={Roadmap3} alt="Roadmap 3" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img className="responsiveImage" src={Roadmap4} alt="Roadmap 4" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img className="responsiveImage" src={Roadmap5} alt="Roadmap 5" />
-                            </Carousel.Item>
-                        </Carousel>
+                      <div>
+                        <img className="responsiveImage" src={Roadmap} alt="Roadmap 1" />
+                      </div>
+                      <div>
+                        <img className="responsiveImage" src={Roadmap2} alt="Roadmap 2" />
+                      </div>
+                      <div>
+                        <img className="responsiveImage" src={Roadmap3} alt="Roadmap 3" />
+                      </div>
+                      <div>
+                        <img className="responsiveImage" src={Roadmap4} alt="Roadmap 4" />
+                      </div>
+                      <div>
+                        <img className="responsiveImage" src={Roadmap5} alt="Roadmap 5" />
+                      </div>
                     </div>
                 </div>
 
@@ -44,3 +42,22 @@ export class LandingSlide5 extends React.Component<{}, {}>
 }
 
 export default LandingSlide5;
+
+//
+// <Carousel>
+//     <Carousel.Item>
+//         <img className="responsiveImage" src={Roadmap} alt="Roadmap 1" />
+//     </Carousel.Item>
+//     <Carousel.Item>
+//         <img className="responsiveImage" src={Roadmap2} alt="Roadmap 2" />
+//     </Carousel.Item>
+//     <Carousel.Item>
+//         <img className="responsiveImage" src={Roadmap3} alt="Roadmap 3" />
+//     </Carousel.Item>
+//     <Carousel.Item>
+//         <img className="responsiveImage" src={Roadmap4} alt="Roadmap 4" />
+//     </Carousel.Item>
+//     <Carousel.Item>
+//         <img className="responsiveImage" src={Roadmap5} alt="Roadmap 5" />
+//     </Carousel.Item>
+// </Carousel>

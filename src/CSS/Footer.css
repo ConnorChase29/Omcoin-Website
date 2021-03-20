@@ -16,6 +16,13 @@
     margin: 0 15px;
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .socialSpacing{
+      margin: 0 9px;
+  }
+}
+
 .socialSpacing svg{
     max-width: 20px;
     max-height: 20px;
@@ -54,10 +61,10 @@
 .CopyContainer{
     display: flex;
 }
-.vertical { 
+.vertical {
     display: unset;
-    border-left: 1px solid grey; 
-    height: px; 
+    border-left: 1px solid grey;
+    height: px;
 }
 .hrFix { margin-top: 0; margin-bottom: 15px }
 .OmcoinFooterText{

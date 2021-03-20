@@ -3,9 +3,9 @@ import Logo from './Assets/Omapp-App-Icon.svg';
 import GooglePlayLogo from './Assets/Google-play.png';
 import AppleLogo from './Assets/App-store.png';
 import MockUp from './Assets/Home-Screen.png';
-import video from './Assets/Omcoin-Landing-Page-Video.mov';
+import video from './Assets/Omcoin-Landing-Page-Video2.mov';
 import Button from 'react-bootstrap/Button';
-//import BackgroundImage from 
+//import BackgroundImage from
 import './CSS/Features.css';
 
 export class LandingSlide1 extends React.Component<{}, {}>
@@ -14,7 +14,7 @@ export class LandingSlide1 extends React.Component<{}, {}>
         return (
             <div className="Landing1">
                 <div className="landing1Wrapper">
-                    <div className="backgroundVideo">
+                    <div className="backgroundVideo" style={{opacity:'0.99'}}>
                         <video autoPlay loop muted>
                             <source src={video} type="video/mp4"/>
                         </video>
@@ -29,7 +29,7 @@ export class LandingSlide1 extends React.Component<{}, {}>
                         </div>
 
                         <div className="AMeditationTextDiv">
-                            
+
                             <h1 className = "TitleText">A meditation experience
                             <br></br>
                             with crypto rewards.

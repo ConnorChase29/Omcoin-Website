@@ -11,22 +11,20 @@ export class LandingSlide3 extends React.Component<{}, {}>
     render() {
         return (
             <div id = "Features" className = "Landing3">
-                <div className="Slide3Text">
+                <div className="Slide3Text" style={{marginBottom:30}}>
                     <h1 className = "TitleText">Earning crypto is <br/>this <span className="blueText">rewarding.</span></h1>
                 </div>
                 <div className="responsiveImage">
                     <div className="container">
-                        <Carousel>
-                            <Carousel.Item>
-                                <img className="responsiveImage" src={Feature1} alt="Feature 1" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img className="responsiveImage" src={Feature2} alt="Feature 2" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img className="responsiveImage" src={Feature3} alt="Feature 3" />
-                            </Carousel.Item>
-                        </Carousel>
+                        <div>
+                          <img className="responsiveImage" src={Feature1} alt="Feature 1" />
+                        </div>
+                        <div>
+                          <img className="responsiveImage" src={Feature2} alt="Feature 2" />
+                        </div>
+                        <div>
+                          <img className="responsiveImage" src={Feature3} alt="Feature 3" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -36,3 +34,16 @@ export class LandingSlide3 extends React.Component<{}, {}>
 }
 
 export default LandingSlide3;
+
+
+// <Carousel>
+//     <Carousel.Item>
+//         <img className="responsiveImage" src={Feature1} alt="Feature 1" />
+//     </Carousel.Item>
+//     <Carousel.Item>
+//         <img className="responsiveImage" src={Feature2} alt="Feature 2" />
+//     </Carousel.Item>
+//     <Carousel.Item>
+//         <img className="responsiveImage" src={Feature3} alt="Feature 3" />
+//     </Carousel.Item>
+// </Carousel>

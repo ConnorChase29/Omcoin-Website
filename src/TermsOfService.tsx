@@ -5,6 +5,7 @@ export class TermsOfService extends React.Component<{}, {}>
 {
     render() {
         return (
+          <div className="container">
             <div className = "centerAlign">
             <div className = "leftAlign">
                 <h1>Terms and Conditions</h1>
@@ -92,6 +93,7 @@ You agree that the original English text shall prevail in the case of a dispute.
 
             </div>
             </div>
+          </div>
         )
     }
 }
